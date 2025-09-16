@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/LIU/Documents/FPGA/Registre_decalage/simulation/modelsim
+Espeedcontroller
+Z1 w1757980311
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd
+Z5 FC:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd
+l0
+L5
+VLJjBSS4Mnhl4^Sfc`OQd40
+!s100 K:=f_LQPALTBP[QL[I[fK1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1757981215
+!i10b 1
+Z8 !s108 1757981215.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd|
+Z10 !s107 C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+Z13 DEx4 work 15 speedcontroller 0 22 LJjBSS4Mnhl4^Sfc`OQd40
+l20
+L15
+VdJek519S@OJ[IT?RO@Y`92
+!s100 bJZ^z>?cMTI>8;Wk484]A3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_speedcontroller
+Z14 w1757981104
+R2
+R3
+R0
+Z15 8C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd
+Z16 FC:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd
+l0
+L15
+VMYDS2W>Q[4HeD0FGhmz080
+!s100 @GkD6cSbna__H:l:MTQFm1
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd|
+Z18 !s107 C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd|
+!i113 1
+R11
+R12
+Asim
+R13
+R2
+R3
+Z19 DEx4 work 18 tb_speedcontroller 0 22 MYDS2W>Q[4HeD0FGhmz080
+l28
+L18
+Z20 VY0lPF6:afenY;l]e5`]>z2
+Z21 !s100 0QVQnY?S8caNS23OoV84Y3
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12

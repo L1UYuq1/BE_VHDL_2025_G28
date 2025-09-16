@@ -1,0 +1,89 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Registre_decalage_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:06:10 on Sep 16,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SpeedController
+# -- Compiling architecture Behavior of SpeedController
+# End time: 02:06:10 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:06:52 on Sep 16,2025
+# vcom -reportprogress 300 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SpeedController
+# -- Compiling architecture Behavior of SpeedController
+# End time: 02:06:52 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:06:52 on Sep 16,2025
+# vcom -reportprogress 300 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_SpeedController
+# -- Compiling architecture sim of tb_SpeedController
+# -- Loading entity SpeedController
+# End time: 02:06:52 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:06:55 on Sep 16,2025
+# vcom -reportprogress 300 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SpeedController
+# -- Compiling architecture Behavior of SpeedController
+# End time: 02:06:55 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:06:55 on Sep 16,2025
+# vcom -reportprogress 300 -work work C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_SpeedController
+# -- Compiling architecture sim of tb_SpeedController
+# -- Loading entity SpeedController
+# End time: 02:06:55 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_speedcontroller
+# vsim -gui -l msim_transcript work.tb_speedcontroller 
+# Start time: 02:07:23 on Sep 16,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_speedcontroller(sim)
+# Loading work.speedcontroller(behavior)
+add wave -position insertpoint sim:/tb_speedcontroller/*
+run
+run
+# ** Note: SHIFT pulse @ time=1000000210000 ps  MODE='0''0'
+#    Time: 1000000210 ns  Iteration: 0  Instance: /tb_speedcontroller
+# ** Note: SHIFT pulse @ time=2000000210000 ps  MODE='0''0'
+#    Time: 2000000210 ns  Iteration: 0  Instance: /tb_speedcontroller
+# Break key hit
+# Break in ForLoop loop at C:/Users/LIU/Documents/FPGA/Registre_decalage/SpeedController_tb.vhd line 49
+# End time: 02:10:53 on Sep 16,2025, Elapsed time: 0:03:30
+# Errors: 0, Warnings: 0
